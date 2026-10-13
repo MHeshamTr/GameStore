@@ -1,0 +1,23 @@
+## --- .NET & C# Build Outputs ---
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.suo
+.vs/
+
+## --- Environment & Secrets ---
+# إذا كنت تضع كلمات مرور أو connection strings سرية لاحقاً:
+# appsettings.Development.json
+
+## --- Frontend (عند إضافته لاحقاً) ---
+node_modules/
+**/node_modules/
+dist/
+build/
+*.log
+
+## --- OS & Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
