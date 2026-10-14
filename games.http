@@ -2,4 +2,30 @@ GET http://localhost:5174/games
 
 ###
 
-GET http://localhost:5174/games/1
+GET http://localhost:5174/games/5
+
+###
+POST http://localhost:5174/games
+Content-Type: application/json
+
+{
+    "name": "mario",
+    "genre": "platform",
+    "price":60.50,
+    "releaseDate": "2023-10-23"
+}
+
+###
+
+PUT http://localhost:5174/games/1
+Content-Type: application/json
+
+{
+    "name": "street fighter II turbo",
+    "genre": "Fighting",
+    "price": 96.5,
+    "releaseDate": "2005-05-01"
+}
+
+###
+DELETE http://localhost:5174/games/1
