@@ -9,7 +9,7 @@ POST http://localhost:5174/games
 Content-Type: application/json
 
 {
-    "name": "mario",
+    "name": "super mario",
     "genre": "platform",
     "price":60.50,
     "releaseDate": "2023-10-23"
@@ -17,7 +17,7 @@ Content-Type: application/json
 
 ###
 
-PUT http://localhost:5174/games/1
+PUT http://localhost:5174/games/4
 Content-Type: application/json
 
 {
