@@ -26,6 +26,13 @@ public static class GamesEndpoints
         "GTA V",
         "RPG",
         99.99M,
+        new DateOnly(2024,12,30)
+     ),
+     new(
+        4,
+        "GTA V÷",
+        "RPG",
+        99.98M,
         new DateOnly(2026,12,30)
      ),
 ];
