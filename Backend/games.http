@@ -10,8 +10,8 @@ Content-Type: application/json
 
 {
     "name": "super mario",
-    "genre": "platform",
-    "price":60.50,
+    "genreId": 3,
+    "price":45.23,
     "releaseDate": "2023-10-23"
 }
 
