@@ -2,30 +2,34 @@ GET http://localhost:5174/games
 
 ###
 
-GET http://localhost:5174/games/86
+GET http://localhost:5174/games/3
 
 ###
 POST http://localhost:5174/games
 Content-Type: application/json
 
 {
-    "name": "super mario",
-    "genreId": 3,
-    "price":45.23,
-    "releaseDate": "2023-10-23"
+    "name": "GAME TEST",
+    "genreId": 1,
+    "price":99.55,
+    "releaseDate": "2008-05-02"
 }
 
 ###
 
-PUT http://localhost:5174/games/4
+PUT http://localhost:5174/games/2
 Content-Type: application/json
 
 {
     "name": "street fighter II turbo",
-    "genre": "Fighting",
-    "price": 96.5,
-    "releaseDate": "2005-05-01"
+    "genreId": 1,
+    "price":19.55,
+    "releaseDate": "2005-05-02"
 }
 
 ###
-DELETE http://localhost:5174/games/1
+DELETE http://localhost:5174/games/3
+
+###
+
+GET  http://localhost:5174/genres

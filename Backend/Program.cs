@@ -24,6 +24,8 @@ if(app.Environment.IsDevelopment())
 
 app.MapGameEndpoints();
 
+app.MapGenreEndpoints();
+
 app.MigrateDb();
 
 app.Run();
